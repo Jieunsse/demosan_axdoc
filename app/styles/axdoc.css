@@ -1,0 +1,32 @@
+/* AdFlow design — root scope and keyframes.
+   All component/utility classes have been migrated to Tailwind arbitrary values.
+   Only the .axdoc root reset and @keyframes (referenced as animate-[...] in JSX) remain. */
+
+.axdoc {
+  font-family: var(--ax-font-sans);
+  color: var(--ax-fg-normal);
+  background: var(--ax-bg-alternative);
+  font-size: 14px;
+  min-height: 100vh;
+  color-scheme: light;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+[data-theme="dark"] .axdoc { color-scheme: dark; }
+
+/* Workspace shell pages: keep body bg in sync with .axdoc so overscroll/HMR/route transition
+   never reveals the legacy dark body bg (--bg-base: #080D18) underneath. */
+body:has(.axdoc) { background: #f7f7f8; }
+[data-theme="dark"] body:has(.axdoc) { background: #212225; }
+.axdoc a { color: inherit; text-decoration: none; }
+.axdoc input, .axdoc textarea, .axdoc select, .axdoc button { font-family: inherit; }
+.axdoc :focus-visible { outline: 2px solid var(--ax-primary-normal); outline-offset: 2px; }
+
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes popIn { from { opacity: 0; transform: translateY(6px) scale(0.98); } to { opacity: 1; transform: none; } }
+@keyframes live-pulse {
+  0%   { transform: scale(0.8); opacity: 0.5; }
+  100% { transform: scale(1.8); opacity: 0; }
+}
+@keyframes skel { to { background-position: -200% 0; } }

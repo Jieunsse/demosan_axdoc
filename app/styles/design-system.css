@@ -1,0 +1,380 @@
+/* Wanted Design System tokens + Pretendard @font-face.
+   Generated from the design bundle's colors_and_type.css; all rules scoped under .axdoc. */
+
+@font-face { font-family: "Pretendard"; font-weight: 100; font-style: normal; font-display: swap; src: url("/fonts/Pretendard-Thin.woff2") format("woff2"); }
+@font-face { font-family: "Pretendard"; font-weight: 200; font-style: normal; font-display: swap; src: url("/fonts/Pretendard-ExtraLight.woff2") format("woff2"); }
+@font-face { font-family: "Pretendard"; font-weight: 300; font-style: normal; font-display: swap; src: url("/fonts/Pretendard-Light.woff2") format("woff2"); }
+@font-face { font-family: "Pretendard"; font-weight: 400; font-style: normal; font-display: swap; src: url("/fonts/Pretendard-Regular.woff2") format("woff2"); }
+@font-face { font-family: "Pretendard"; font-weight: 500; font-style: normal; font-display: swap; src: url("/fonts/Pretendard-Medium.woff2") format("woff2"); }
+@font-face { font-family: "Pretendard"; font-weight: 600; font-style: normal; font-display: swap; src: url("/fonts/Pretendard-SemiBold.woff2") format("woff2"); }
+@font-face { font-family: "Pretendard"; font-weight: 700; font-style: normal; font-display: swap; src: url("/fonts/Pretendard-Bold.woff2") format("woff2"); }
+@font-face { font-family: "Pretendard"; font-weight: 800; font-style: normal; font-display: swap; src: url("/fonts/Pretendard-ExtraBold.woff2") format("woff2"); }
+@font-face { font-family: "Pretendard"; font-weight: 900; font-style: normal; font-display: swap; src: url("/fonts/Pretendard-Black.woff2") format("woff2"); }
+.axdoc {
+  
+  --ax-common-100: #ffffff;
+  --ax-common-0:   #000000;
+
+  
+  --ax-gray-0:   #ffffff;
+  --ax-gray-50:  #f7f7f7;
+  --ax-gray-100: #dcdcdc;
+  --ax-gray-200: #c4c4c4;
+  --ax-gray-250: #b0b0b0;
+  --ax-gray-300: #9b9b9b;
+  --ax-gray-350: #8a8a8a;
+  --ax-gray-400: #737373;
+  --ax-gray-450: #5c5c5c;
+  --ax-gray-500: #474747;
+  --ax-gray-550: #303030;
+  --ax-gray-600: #2a2a2a;
+  --ax-gray-700: #1c1c1c;
+  --ax-gray-800: #171717;
+  --ax-gray-900: #0f0f0f;
+  --ax-gray-1000:#000000;
+
+  
+  --ax-neutral-50:  #f7f7f8;
+  --ax-neutral-100: #f4f4f5;
+  --ax-neutral-150: #eaebec;
+  --ax-neutral-200: #e1e2e4;
+  --ax-neutral-250: #dbdcdf;
+  --ax-neutral-300: #c2c4c8;
+  --ax-neutral-350: #aeb0b6;
+  --ax-neutral-400: #989ba2;
+  --ax-neutral-450: #878a93;
+  --ax-neutral-500: #70737c;       
+  --ax-neutral-550: #5a5c63;
+  --ax-neutral-600: #46474c;
+  --ax-neutral-650: #37383c;
+  --ax-neutral-700: #333438;
+  --ax-neutral-750: #2e2f33;
+  --ax-neutral-800: #292a2d;
+  --ax-neutral-820: #212225;
+  --ax-neutral-850: #1b1c1e;
+  --ax-neutral-880: #171719;       
+  --ax-neutral-900: #141415;
+  --ax-neutral-950: #0f0f10;
+
+  
+  --ax-blue-50:  #f7fbff;
+  --ax-blue-100: #eaf2fe;
+  --ax-blue-200: #c9defe;
+  --ax-blue-300: #9ec5ff;
+  --ax-blue-400: #69a5ff;
+  --ax-blue-450: #4f95ff;
+  --ax-blue-500: #3385ff;
+  --ax-blue-550: #1a75ff;
+  --ax-blue-600: #0066ff;          
+  --ax-blue-700: #005eeb;
+  --ax-blue-800: #0054d1;
+  --ax-blue-900: #003e9c;
+
+  
+  --ax-red-50:  #fffafa;
+  --ax-red-100: #feecec;
+  --ax-red-200: #fed5d5;
+  --ax-red-300: #ffb5b5;
+  --ax-red-400: #ff8c8c;
+  --ax-red-500: #ff6363;
+  --ax-red-600: #ff4242;           
+  --ax-red-700: #e52222;
+  --ax-red-800: #b20c0c;
+
+  
+  --ax-green-50:  #f2fff6;
+  --ax-green-100: #d9ffe6;
+  --ax-green-200: #acfcc7;
+  --ax-green-300: #7df5a5;
+  --ax-green-400: #49e57d;
+  --ax-green-500: #1ed45a;
+  --ax-green-600: #00bf40;          
+  --ax-green-700: #009632;
+  --ax-green-800: #006e25;
+
+  
+  --ax-yellow-50:  #fffcf7;
+  --ax-yellow-100: #fef4e6;
+  --ax-yellow-200: #fee6c6;
+  --ax-yellow-300: #ffd49c;
+  --ax-yellow-400: #ffc06e;
+  --ax-yellow-500: #ffa938;
+  --ax-yellow-600: #ff9200;         
+  --ax-yellow-700: #d47800;
+  --ax-yellow-800: #9c5800;
+
+  
+  --ax-orange-50:  #fffaf7;
+  --ax-orange-100: #feeee5;
+  --ax-orange-200: #fedbc6;
+  --ax-orange-300: #ffc09c;
+  --ax-orange-400: #ff9c63;
+  --ax-orange-500: #ff7b2e;
+  --ax-orange-600: #ff5e00;
+  --ax-orange-700: #f55a00;
+  --ax-orange-800: #cc4b00;
+
+  
+  --ax-lime-50:  #f8fff2;
+  --ax-lime-100: #e6ffd4;
+  --ax-lime-200: #ccfca9;
+  --ax-lime-300: #aef779;
+  --ax-lime-400: #88f03e;
+  --ax-lime-500: #6be016;
+  --ax-lime-600: #58cf04;
+  --ax-lime-700: #48ad00;
+
+  
+  --ax-cyan-50:  #f7feff;
+  --ax-cyan-100: #defaff;
+  --ax-cyan-200: #b5f4ff;
+  --ax-cyan-300: #8aedff;
+  --ax-cyan-400: #57dff7;
+  --ax-cyan-500: #28d0ed;
+  --ax-cyan-600: #00bdde;           
+  --ax-cyan-700: #0098b2;
+  --ax-cyan-800: #006f82;
+
+  
+  --ax-sky-50:  #f7fdff;
+  --ax-sky-100: #e5f6fe;
+  --ax-sky-200: #c4ecfe;
+  --ax-sky-300: #a1e1ff;
+  --ax-sky-400: #70d2ff;
+  --ax-sky-500: #3dc2ff;
+  --ax-sky-600: #00aeff;
+  --ax-sky-700: #008dcf;
+  --ax-sky-800: #006796;
+
+  
+  --ax-violet-50:  #fbfaff;
+  --ax-violet-100: #f0ecfe;
+  --ax-violet-200: #dbd3fe;
+  --ax-violet-300: #c0b0ff;
+  --ax-violet-400: #9e86fc;
+  --ax-violet-500: #7d5ef7;
+  --ax-violet-600: #6541f2;          
+  --ax-violet-700: #5b37ed;
+  --ax-violet-800: #4f29e5;
+  --ax-violet-900: #3a16c9;
+
+  
+  --ax-purple-50:  #fefbff;
+  --ax-purple-100: #f9edff;
+  --ax-purple-200: #f2d6ff;
+  --ax-purple-300: #e9baff;
+  --ax-purple-400: #de96ff;
+  --ax-purple-500: #d478ff;
+  --ax-purple-600: #cb59ff;
+  --ax-purple-700: #ad36e3;
+  --ax-purple-800: #861cb8;
+
+  
+  --ax-pink-50:  #fffafe;
+  --ax-pink-100: #feecfb;
+  --ax-pink-200: #fed3f7;
+  --ax-pink-300: #ffb8f3;
+  --ax-pink-400: #ff94ed;
+  --ax-pink-500: #fa73e3;
+  --ax-pink-600: #f553da;
+  --ax-pink-700: #e846cd;
+  --ax-pink-800: #d331b8;
+
+  
+  --ax-alpha-05: 0.05;
+  --ax-alpha-08: 0.08;
+  --ax-alpha-12: 0.12;
+  --ax-alpha-16: 0.16;
+  --ax-alpha-22: 0.22;
+  --ax-alpha-28: 0.28;
+  --ax-alpha-35: 0.35;
+  --ax-alpha-43: 0.43;
+  --ax-alpha-52: 0.52;
+  --ax-alpha-61: 0.61;
+  --ax-alpha-74: 0.74;
+  --ax-alpha-88: 0.88;
+  --ax-alpha-97: 0.97;
+
+  
+  --ax-bg-normal:        #ffffff;            
+  --ax-bg-elevated:      #ffffff;            
+  --ax-bg-alternative:   #f7f7f8;            
+  --ax-bg-neutral:       rgba(112,115,124,0.05);
+  --ax-bg-inverse:       #171719;
+
+  --ax-fg-strong:        #000000;            
+  --ax-fg-normal:        rgba(46,47,51,0.88); 
+  --ax-fg-neutral:       rgba(55,56,60,0.61); 
+  --ax-fg-alternative:   rgba(55,56,60,0.28); 
+  --ax-fg-assistive:     rgba(55,56,60,0.16);
+  --ax-fg-disabled:      rgba(55,56,60,0.16);
+  --ax-fg-on-color:      #ffffff;
+  --ax-fg-inverse:       #ffffff;
+
+  --ax-line-normal:      rgba(112,115,124,0.22);
+  --ax-line-neutral:     rgba(112,115,124,0.16);
+  --ax-line-alternative: rgba(112,115,124,0.08);
+  --ax-line-strong:      rgba(46,47,51,0.88);
+
+  --ax-primary-normal:   #0066ff;            
+  --ax-primary-hover:    #005eeb;
+  --ax-primary-press:    #0054d1;
+  --ax-primary-heavy:    #003e9c;
+  --ax-primary-strong:   #002966;
+  --ax-primary-soft:     #eaf2fe;
+  --ax-primary-on:       #ffffff;
+
+  --ax-status-positive:  #00bf40;
+  --ax-status-cautionary:#ff9200;
+  --ax-status-negative:  #ff4242;
+  --ax-status-info:      #0066ff;
+
+  --ax-accent-violet:    #6541f2;
+  --ax-accent-cyan:      #00bdde;
+  --ax-accent-violet-soft:#f0ecfe;
+  --ax-accent-cyan-soft: #defaff;
+
+  
+  --ax-shadow-emphasize: 0 1px 4px rgba(0,0,0,0.08), 0 4px 12px rgba(0,0,0,0.06);
+  --ax-shadow-strong:    0 2px 6px rgba(0,0,0,0.08), 0 8px 24px rgba(0,0,0,0.12);
+  --ax-shadow-heavy:     0 4px 12px rgba(0,0,0,0.12), 0 16px 48px rgba(0,0,0,0.16);
+  --ax-shadow-card:      0 1px 2px rgba(23,23,23,0.06), 0 4px 12px rgba(23,23,23,0.07);
+
+  
+  --ax-radius-2:  2px;
+  --ax-radius-4:  4px;
+  --ax-radius-6:  6px;
+  --ax-radius-8:  8px;
+  --ax-radius-12: 12px;
+  --ax-radius-16: 16px;
+  --ax-radius-20: 20px;
+  --ax-radius-24: 24px;
+  --ax-radius-32: 32px;
+  --ax-radius-64: 64px;
+  --ax-radius-pill: 9999px;
+
+  
+  --ax-space-1:   2px;
+  --ax-space-2:   4px;
+  --ax-space-3:   8px;
+  --ax-space-4:   12px;
+  --ax-space-5:   16px;
+  --ax-space-6:   20px;
+  --ax-space-7:   24px;
+  --ax-space-8:   32px;
+  --ax-space-9:   40px;
+  --ax-space-10:  48px;
+  --ax-space-11:  64px;
+  --ax-space-12:  96px;
+  --ax-space-13:  128px;
+
+  
+  --ax-font-sans: "Pretendard", "Pretendard JP Variable", "Pretendard JP",
+                 -apple-system, "system-ui", "Apple SD Gothic Neo", "Noto Sans KR",
+                 "Hiragino Kaku Gothic ProN", sans-serif;
+  --ax-font-display: "Wanted Sans Variable", "Wanted Sans", var(--ax-font-sans);
+  --ax-font-mono: "SF Mono", "JetBrains Mono", "Menlo", ui-monospace, monospace;
+
+  
+  --ax-tracking-display: -0.027em;
+  --ax-tracking-title:   -0.024em;
+  --ax-tracking-heading: -0.023em;
+  --ax-tracking-body:    0.006em;
+  --ax-tracking-caption: 0.012em;
+}
+
+[data-theme="dark"] .axdoc, .axdoc .w-dark {
+  --ax-bg-normal:        #171719;
+  --ax-bg-elevated:      #1b1c1e;
+  --ax-bg-alternative:   #212225;
+  --ax-bg-neutral:       rgba(255,255,255,0.05);
+  --ax-bg-inverse:       #ffffff;
+
+  --ax-fg-strong:        #ffffff;
+  --ax-fg-normal:        rgba(255,255,255,0.88);
+  --ax-fg-neutral:       rgba(255,255,255,0.61);
+  --ax-fg-alternative:   rgba(255,255,255,0.28);
+  --ax-fg-assistive:     rgba(255,255,255,0.16);
+  --ax-fg-disabled:      rgba(255,255,255,0.16);
+  --ax-fg-on-color:      #ffffff;
+  --ax-fg-inverse:       #171719;
+
+  --ax-line-normal:      rgba(255,255,255,0.22);
+  --ax-line-neutral:     rgba(255,255,255,0.16);
+  --ax-line-alternative: rgba(255,255,255,0.08);
+  --ax-line-strong:      rgba(255,255,255,0.88);
+
+  --ax-primary-soft:     rgba(0,102,255,0.18);
+  --ax-shadow-card:      0 1px 2px rgba(0,0,0,0.4), 0 4px 12px rgba(0,0,0,0.45);
+}
+
+.axdoc .w-display-1 {
+  font: 700 56px/1.2 var(--ax-font-sans);
+  letter-spacing: var(--ax-tracking-display);
+  color: var(--ax-fg-strong);
+}
+.axdoc .w-display-2 {
+  font: 700 36px/1.334 var(--ax-font-sans);
+  letter-spacing: var(--ax-tracking-display);
+  color: var(--ax-fg-strong);
+}
+.axdoc .w-h1 {
+  font: 700 28px/1.358 var(--ax-font-sans);
+  letter-spacing: var(--ax-tracking-title);
+  color: var(--ax-fg-strong);
+}
+.axdoc .w-h2 {
+  font: 700 24px/1.334 var(--ax-font-sans);
+  letter-spacing: var(--ax-tracking-heading);
+  color: var(--ax-fg-strong);
+}
+.axdoc .w-h3 {
+  font: 700 20px/1.4 var(--ax-font-sans);
+  letter-spacing: -0.018em;
+  color: var(--ax-fg-strong);
+}
+.axdoc .w-h4 {
+  font: 600 17px/1.45 var(--ax-font-sans);
+  letter-spacing: -0.012em;
+  color: var(--ax-fg-strong);
+}
+.axdoc .w-body-strong {
+  font: 600 16px/1.5 var(--ax-font-sans);
+  letter-spacing: var(--ax-tracking-body);
+  color: var(--ax-fg-strong);
+}
+.axdoc .w-body {
+  font: 500 16px/1.5 var(--ax-font-sans);
+  letter-spacing: var(--ax-tracking-body);
+  color: var(--ax-fg-normal);
+}
+.axdoc .w-body-reading {
+  font: 400 16px/1.625 var(--ax-font-sans);
+  letter-spacing: var(--ax-tracking-body);
+  color: var(--ax-fg-normal);
+}
+.axdoc .w-label {
+  font: 600 14px/1.428 var(--ax-font-sans);
+  letter-spacing: 0.008em;
+  color: var(--ax-fg-strong);
+}
+.axdoc .w-caption {
+  font: 500 13px/1.538 var(--ax-font-sans);
+  letter-spacing: var(--ax-tracking-caption);
+  color: var(--ax-fg-neutral);
+}
+.axdoc .w-overline {
+  font: 600 11px/1.45 var(--ax-font-sans);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ax-fg-neutral);
+}
+.axdoc .w-mono {
+  font: 500 13px/1.45 var(--ax-font-mono);
+  color: var(--ax-fg-normal);
+}
+.axdoc .w-brand-display {
+  font: 700 72px/1.05 var(--ax-font-display);
+  letter-spacing: -0.03em;
+  color: var(--ax-fg-strong);
+}
