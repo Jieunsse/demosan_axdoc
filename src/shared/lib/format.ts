@@ -65,6 +65,20 @@ export function maskId(id: string | null | undefined, visible: number = 4): stri
   return prefix + "•".repeat(dotsLen) + tail;
 }
 
+export function fmtJoinedAt(iso: string | null | undefined): string {
+  if (!iso) return "—";
+  const d = new Date(iso);
+  if (isNaN(d.getTime())) return iso;
+  return `${d.getFullYear()}.${String(d.getMonth() + 1).padStart(2, "0")}.${String(d.getDate()).padStart(2, "0")}`;
+}
+
+export function fmtIssuedAt(iso: string | null | undefined): string {
+  if (!iso) return "—";
+  const d = new Date(iso);
+  if (isNaN(d.getTime())) return iso;
+  return `${d.getFullYear()}년 ${d.getMonth() + 1}월 ${d.getDate()}일`;
+}
+
 export function timeAgo(ts: number): string {
   const diff = Math.max(0, Date.now() - ts);
   const m = Math.floor(diff / 60000);
